@@ -8,6 +8,8 @@ public class Task03 {
         String str = "Alamanya";
         System.out.println("str.indexOf(\"a\") = " + str.indexOf("a"));
 
+        System.out.println(str.indexOf("a", str.indexOf("a") + 1));
+
 
     }
 }

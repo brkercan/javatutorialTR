@@ -14,6 +14,11 @@ ignoreCase()-> verilen string'i BUYUK-kucuk harf duyarlılığını kaldırır.
         System.out.println("str.toUpperCase() = " + str.toUpperCase());
         System.out.println("str.toLowerCase() = " + str.toLowerCase());
 
+        String a = "BURAK";
+
+        System.out.println("a.substring(0,1)+a.substring(1).toLowerCase() = "
+                + a.substring(0, 1) + a.substring(1).toLowerCase());
+
 
     }
 }
