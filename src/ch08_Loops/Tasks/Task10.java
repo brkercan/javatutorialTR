@@ -12,6 +12,20 @@ public class Task10 {
         output : a sayısı :3
          */
 
+        Scanner input = new Scanner(System.in);
+        System.out.println("bir ifade giriniz");
+        String str = input.nextLine();
+        System.out.println("harf giriniz");
+        char harf = input.next().charAt(0);
+        int harfAdet = 0;
+
+        for (int i = 0; i <str.length(); i++){
+            if(str.charAt(i) == harf){
+                harfAdet++;
+            }
+        }
+        System.out.println(harfAdet + " adet " + harf + " vardır");
+
 
     }
 }

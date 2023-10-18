@@ -14,6 +14,21 @@ public class Task01 {
        		- Sayi hem 3’un hem 5’in kati ise sayi yerine “JavaCAN” print eden code create ediniz
 
 */
+        Scanner input = new Scanner(System.in);
+        System.out.println("100 den küçük bir tam sayı giriniz");
+        int sayı = input.nextInt();
+
+        if(sayı<100) {
+            for (int i = sayı; i < 100; i++) {
+                if (i % 3 == 0 && i % 5 == 0) {
+                    System.out.println(i+" JavaCan");
+                } else if (i % 3 == 0) {
+                    System.out.println(i+" Java");
+                } else if (i % 5 == 0) {
+                    System.out.println(i+" CAN'dır");
+                }
+            }
+        }else System.out.println("lütfen 100 den küçük bir sayı giriniz");
 
     }
 }

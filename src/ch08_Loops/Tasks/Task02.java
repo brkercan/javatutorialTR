@@ -10,6 +10,20 @@ public class Task02 {
 
          */
 
+        Scanner input = new Scanner(System.in);
+        System.out.println("bir ifade giriniz");
+        String str = input.nextLine();
+
+        String tersStr = "";
+
+        for (int i = str.length()-1; i >= 0; i--){
+            tersStr += str.charAt(i);
+        }
+        if (tersStr.equals(str)){
+            System.out.println("bu ifade polindrome'dur");
+        }else System.out.println("buc ifade polindrome değildir");
+
+
     }
 
 
