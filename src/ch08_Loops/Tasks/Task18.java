@@ -31,7 +31,18 @@ public class Task18 {
 
     public static void main(String[] args) {
 
+        Scanner input = new Scanner(System.in);
+        System.out.println("bir sayı giriniz");
+        int sayı = input.nextInt();
 
+        int count = 0;
+
+        for (int i = 3; i < sayı; i*=3) {
+            if(sayı%i != 0) {
+                count++;
+            }
+        }
+        System.out.println((count >= 1) ? "3ün üssü (kuvveti) değildir" : "3ün üssü (kuvveti)");
 
 
     }

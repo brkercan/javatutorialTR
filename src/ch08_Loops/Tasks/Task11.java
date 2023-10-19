@@ -14,6 +14,13 @@ public class Task11 {
 
         */
 
+        for (int i = 65; i < 71 ; i++) {
+            for (int j = 65; j <= i ; j++) {
+                System.out.print((char)(j) + " ");
+            }
+            System.out.println();
+        }
+
 
 
     }

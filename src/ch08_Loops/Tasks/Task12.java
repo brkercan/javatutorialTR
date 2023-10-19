@@ -9,6 +9,18 @@ public class Task12 {
         toplamının print eden code create ediniz
          */
 
+        Scanner input = new Scanner(System.in);
+
+        int toplam = 0;
+
+        for (int i = 1; i <= 5; i++) {
+            System.out.print("agam ele "+i+". sayıyı giresen : ");
+            int sayı = input.nextInt();
+            if(sayı<=10 || sayı >=20){
+                toplam+=sayı;
+            }
+        }
+        System.out.println("toplam = " + toplam);
 
 
     }

@@ -9,6 +9,12 @@ public class Task17 {
 
          */
 
+        for (int i = 0; i < 100; i++) {
+            if(i%4 == 0 && i%5 == 0) {
+                System.out.print(i+" ");
+            }
+        }
+
 
     }
 }

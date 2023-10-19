@@ -28,6 +28,18 @@ public class Task07 {
             şekli print eden code create ediniz
          */
 
+        Scanner input = new Scanner(System.in);
+        System.out.println("bir rakam giriniz");
+        int a = input.nextInt();
+
+        for (int i = 1 ; i <= a; i++ ){
+            for (int j = 1; j<= a; j++){
+                System.out.print(i == j ? 1 : 0);
+            }
+            System.out.println();
+        }
+
+
 
 
 

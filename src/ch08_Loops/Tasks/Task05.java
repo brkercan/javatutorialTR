@@ -12,6 +12,13 @@ public class Task05 {
         şekli print eden code create ediniz
          */
 
+        for (int i = 0; i <=5;i++) {
+            for (int j = 0; j <=4 ; j++) {
+                System.out.print("#");
+            }
+            System.out.println(); // dummy--> hayalet komut.. action'da app. etkilemeyen komut
+        }
+
 
 
 
