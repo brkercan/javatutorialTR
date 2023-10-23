@@ -8,6 +8,17 @@ public class Task04 {
 
 		 */
 
+		int sayac = 0;
+		int i = 999;
+
+		while(i>99){
+			if(i%4 == 0 && i%6 == 0){
+				sayac++;
+				System.out.println(i+" ");
+			}i--;
+		}
+		System.out.println(sayac);
+
 
 
 

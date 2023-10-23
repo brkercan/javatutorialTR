@@ -8,5 +8,11 @@ public class Task14 {
 
     public static void main(String[] args) {
 
+        Scanner input = new Scanner(System.in);
+        System.out.println("iki adet sayı giriniz");
+        int say1 = input.nextInt();
+        int say2 = input.nextInt();
+        int i = 1;
+
     }
 }
