@@ -1,0 +1,19 @@
+package ch10_MethodCreation;
+
+public class C05_Return {
+    public static int ikiilecarp(int a){
+        return(a*2);
+    }
+    public static int ikiiletopla(int a){
+        return(a+2);
+    }
+    public static int dortilecarp(int a){
+        return(a*4);
+    }
+    public static void main(String[] args) {
+        System.out.println("dortilecarp(ikiiletopla(ikiilecarp(8))) = " +
+                dortilecarp(ikiiletopla(ikiilecarp(8))));
+
+
+    }
+}
